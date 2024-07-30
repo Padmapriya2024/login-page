@@ -1,0 +1,24 @@
+.App {
+     text-align :center;
+     margin-top: 80px;
+     height: 100vh;
+     background-color: rgb(196, 241, 255);
+
+}
+
+button {
+   margin: 50px;
+   padding: 30px;
+   font-size: medium;
+   cursor: pointer;
+   background-color: rgb(255, 196, 201);
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+h2 {
+    margin-top: 20px;
+    font-style:oblique;
+}

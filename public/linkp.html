@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Website Layout</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+.header {
+  background-color: hwb(320 12% 40%);
+  padding: 20px;
+  text-align: center;
+}
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.topnav a:hover {
+  background-color: #330fb3;
+  color: rgb(22, 197, 183);
+
+}
+
+.mycontainer div {
+  width:33%;
+  float:left;
+}
+
+  
+body {background-color: powderblue;}
+h1   {color: blue;}
+p    {color: red;}
+
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0; 
+}
+article {
+  float: left;
+  padding: 20px;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+  width: 70%; 
+}
+section::after {
+
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+</style>
+</head>
+<body>
+<div class="header">
+  <h1>HDFS BANK</h1>
+  <img src="banks.png" alt="WE SERVE FOR PEOPLE WELLNESS" alig="left" width="200" height="100">
+  
+  </div>
+
+  
+<div class="topnav">
+  <a href="C:\Users\SSLTP11349\Documents\HTML\sweth_course\butterfly.png">Transactions</a>
+  <a href="C:\Users\SSLTP11349\Documents\HTML\sweth_course\flower.png">Loan</a>
+  <a href="C:\Users\SSLTP11349\Documents\HTML\sweth_course\bearimage.png">Fund  details</a>
+  <a href="C:\Users\SSLTP11349\Documents\HTML\sweth_course\butterfly.png">Credit cards</a>
+  <a href="C:\Users\SSLTP11349\Documents\HTML\sweth_course\flower.png">Insurance</a>
+  <a href="C:\Users\SSLTP11349\Documents\HTML\sweth_course\bearimage.png">Stock Details</a>
+</div>
+
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="#">Account Details</a></li><br>
+      <li><a href="#">Deposits</a></li><br>
+      <li><a href="#">Mutual Fund</a></li><br>
+      <li><a href="#">EMI</a></li><br>
+      <li><a href="#">Money Transfer</a></li><br>
+      <li><a href="#">Helpdesk</a></li>
+    </ul>
+  </nav>
+  <article>
+    <h1>Description</h1>
+    
+<form action="bank.png">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+</form>  
+    
+  </article>
+</section>
+
+
+</body>
+</html>
